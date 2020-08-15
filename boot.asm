@@ -212,7 +212,8 @@ reset_floppy:		; IN: [bootdev] = boot device; OUT: carry set on error
 	ret
 
 
-lbatochs:			; Calculate head, track and sector settings for int 13h			; IN: logical sector in AX, OUT: correct registers for int 13h
+lbatochs:			; Calculate head, track and sector settings for int 13h			
+                                 ; IN: logical sector in AX, OUT: correct registers for int 13h
 	push bx
 	push ax
 	mov bx, ax			; Save logical sector
