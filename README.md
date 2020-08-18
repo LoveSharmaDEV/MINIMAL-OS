@@ -376,7 +376,7 @@ That were volume lable would go but now it goes in root directory table. So that
 
 
 # REFERENCES!!!
-## This project has been research and learning based and meant for the those who want to gain insight to inner working of the booting process. The following links given below are of great help for code and conceptual parts.
+## This project has been totally learning based and meant for the those who want to gain insight to inner working of the booting process. The following links given below are of great help for code and conceptual parts.
 
 * http://www.brokenthorn.com/Resources/
 * http://mikeos.sourceforge.net/write-your-own-os.html
